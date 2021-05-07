@@ -1,0 +1,78 @@
+html {
+    margin: 0;
+}
+
+.field {
+    height: 75vh;
+    width: 75vw;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field input {
+    height: 30px;
+    display: flex;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #282828;
+    }
+
+.image {
+    width: auto;
+    height: 140px;
+    margin: 0 auto 1em auto;
+    display:flex;
+    
+}
+
+.inputs {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    height: 85%;
+}
+
+.imgbox {
+    width: 175px;
+    height: 200px;
+    background-color: grey;
+}
+
+input[type="file"] {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+button {
+    font-size: 32px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 8px;
+    margin-top: 0px;
+}
+
+.drop {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
